@@ -1,0 +1,13 @@
+{
+  "name": "TA2KVC PS2-IR Emitter",
+  "description": "TA2KVC PS2-IR",
+  "icons": [{
+    "src": "apple-touch-icon-120x120.png",
+    "sizes": "120x120",
+    "type": "image/png"
+  }],
+  "scope": "/",
+  "start_url": "/index.html",
+  "display": "fullscreen",
+  "orientation": "portrait"
+}

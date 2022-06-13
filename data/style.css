@@ -1,0 +1,29 @@
+* {box-sizing: border-box;font-family: "Helvetica Neue", Helvetica, Arial, sans-serif}
+body {min-width: 360px;margin: auto;width:360px;height: 100vh}
+.grid-container {display: grid;grid-template-columns: auto auto auto;background-color: #222222;padding: 10px}
+.grid-item {padding: 10px;font-size: 2rem;text-align: center}
+.grid-item-narrow {padding: 0 10px; text-align: center}
+.deco {font-size: 12px;color: #888888}
+footer{padding:30px;text-align:center;width:100%;color:#ffffff;background:#222222;font-size:0.8rem}
+@font-face{font-family:'Material Icons';src:url('MaterialIcons-Regular.ttf') format('truetype');font-weight:normal;font-style:normal}
+.fa{display:inline-block;font:normal normal normal 18px/1 Material Icons;font-size:inherit;text-rendering:optimizeLegibility;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale}
+.fa-stack{position:relative;display:inline-block;width:2em;height:2em;line-height:2em;vertical-align:middle}
+.fa-stack-1x,.fa-stack-2x{position:absolute;left:0;width:100%;text-align:center}
+.fa-stack-1x{line-height:inherit}
+.fa-stack-2x{font-size:2em}
+.fa-stack-3x{font-size:3em}
+.fa-inverse{color:#fff}
+.fa-circle:before{content:"\e3a6"}
+.fa-chevron-left:before{content:"\e5de"}
+.fa-chevron-right:before{content:"\e5df"}
+.fa-chevron-up:before{content:"\e5c7"}
+.fa-chevron-down:before{content:"\e5c5"}
+.fa-stop:before{content:"\e047"}
+.fa-play:before{content:"\e037"}
+.fa-caret-square-o-up:before{content:"\e86b"}
+.fa-arrow_forward_ios:before{content:"\e40c"}
+.fa-square-o:before{content:"\e3c6"}
+.fa-power-off:before{content:"\e8c6"}
+.fa-times:before{content:"\e5cd"}
+#indicator {display:none}
+#temp-display {padding: 5px 25px}
